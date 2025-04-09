@@ -14,3 +14,7 @@ How to run it?
 2. Run the broker from the config folder of zeebe.
 3. Run the operate from the config folder of operate.
 4. Run the tasklist from the config folder of tasklist. -- You can run this only if you have some task in your application.
+
+Once all the servers are up:
+Download the bpmn file from the repo -> Open it in modeler -> You'll see rocket symbol, click it and select self-managed and put cluster endpoints as http://localhost:26500 -> Hit deploy.
+Now,go to localhost:8082 -> your username and password will be both demo -> Go to processes and you will be able to see your process in completed selection.
